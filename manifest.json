@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "NewTabContextMenuGoogleSearch",
+  "version": "1.0",
+  "description": "右クリックから選択したテキストをGoogleで検索します。",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
